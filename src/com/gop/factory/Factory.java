@@ -15,6 +15,6 @@ public abstract class Factory {
 		return factory;
 	}
 
-	public abstract BaseSalary creBaseSalary();
+	public abstract BaseSalary createSalary();
 
 }

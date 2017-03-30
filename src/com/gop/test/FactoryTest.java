@@ -9,7 +9,7 @@ public class FactoryTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Factory factory = Factory.getInstance(AmericanFactory.class);
-		BaseSalary salary = factory.creBaseSalary();
+		BaseSalary salary = factory.createSalary();
 		System.out.println("bonus=" + salary.calBonus() + "\ttax=" + salary.calTax());
 
 	}

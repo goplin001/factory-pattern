@@ -7,7 +7,7 @@ import com.gop.service.impl.BaseSalary;
 public class AmericanFactory extends Factory {
 
 	@Override
-	public BaseSalary creBaseSalary() {
+	public BaseSalary createSalary() {
 		// TODO Auto-generated method stub
 		return new AmericanSalary();
 	}

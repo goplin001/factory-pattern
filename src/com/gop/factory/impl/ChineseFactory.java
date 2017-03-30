@@ -7,7 +7,7 @@ import com.gop.service.impl.ChineseSalary;
 public class ChineseFactory extends Factory {
 
 	@Override
-	public BaseSalary creBaseSalary() {
+	public BaseSalary createSalary() {
 		// TODO Auto-generated method stub
 		return new ChineseSalary();
 	}
